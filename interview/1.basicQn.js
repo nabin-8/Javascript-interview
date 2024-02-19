@@ -1,3 +1,7 @@
+/**
+ * Qno 4 What is the use of typeof operator?
+ */
+
 // let num=10;
 // let str="JavaScript";
 // let bool=true;
@@ -10,6 +14,9 @@
 // console.log(typeof undeType);   //undefined
 // console.log(typeof nullType);   //object
 
+/**
+ * 5. What is an IIFE (Immediately Invoked Function Expression) and why might you use one?
+ */
 // //IIFI
 // (()=>{
 //     let var1="Javascript"
@@ -18,6 +25,10 @@
 // })();
 // // Output: 1000 Javascript
 
+
+/**
+ * 8. What is closure in JavaScript?
+ */
 // function init() {
 //     var name = "Mozilla"; // name is a local variable created by init
 //     function displayName() {
@@ -29,10 +40,31 @@
 //   init();
   
 
-let i="mozila"
-console.log(isNaN(i));
-if(isNaN(i)){
-    console.log("Not a Number");
-}else{
-    console.log(`${i} is number`);
-}
+
+/**
+ * 10. What is NaN? How can you check if something is NaN?
+ */
+// let i="mozila"
+// console.log(isNaN(i));
+// if(isNaN(i)){
+//     console.log("Not a Number");
+// }else{
+//     console.log(`${i} is number`);
+// }
+
+/**
+ * 22. What is the object type?
+ */
+var obj = {
+	a: "hello world", // property
+	b: 42,
+	c: true
+};
+
+    obj.a;		// "hello world", accessed with doted notation
+    obj.b;		// 42
+    obj.c;		// true
+
+    console.log(obj["a"]);	// "hello world", accessed with bracket notation
+    console.log(obj["b"]);	// 42
+    console.log(obj["c"]);	// true

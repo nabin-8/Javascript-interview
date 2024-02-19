@@ -30,9 +30,9 @@
 
 <details>
 <summary>4. What is the use of typeof operator?</summary>
-<p>
-    Typeof operator is used to check the type of variable is it
-</p>
+    <p>
+        Typeof operator is used to check the type of variable is it
+    </p>
 </details>
 
 ```javascript
@@ -133,82 +133,104 @@
 ```
 
 <details>
-<summary>1. How do you clone an object in JavaScript?</summary>
+<summary>11. How do you clone an object in JavaScript?</summary>
 <p>
     
 </p>
 </details>
 
 <details>
-<summary>1. Explain the concept of callback functions.</summary>
+<summary>12. Explain the concept of callback functions.</summary>
 <p>
     
 </p>
 </details>
 
 <details>
-<summary>1. What is a promise in JavaScript?</summary>
+<summary>13. What is a promise in JavaScript?</summary>
 <p>
     
 </p>
 </details>
 
 <details>
-<summary>1. What is the async and await keyword used for?</summary>
+<summary>14. What is the async and await keyword used for?</summary>
 <p>
     
 </p>
 </details>
 
 <details>
-<summary>1. Explain the concept of memoization.</summary>
+<summary>15. Explain the concept of memoization.</summary>
 <p>
     
 </p>
 </details>
 
 <details>
-<summary>1. What is the difference between null, undefined, and NaN?</summary>
+<summary>16. What is the difference between null, undefined, and NaN?</summary>
 <p>
     
 </p>
 </details>
 
 <details>
-<summary>1. How do you check if a variable is an array in JavaScript?</summary>
+<summary>17. How do you check if a variable is an array in JavaScript?</summary>
 <p>
     
 </p>
 </details>
 
 <details>
-<summary>1. What is the purpose of the delete operator?</summary>
+<summary>18. What is the purpose of the delete operator?</summary>
 <p>
     
 </p>
 </details>
 
 <details>
-<summary>1. Explain the difference between let, var, and const.</summary>
+<summary>19. Explain the difference between let, var, and const.</summary>
 <p>
     
 </p>
 </details>
 
 <details>
-<summary>1. What is the use of the this keyword in JavaScript?</summary>
+<summary>20. What is the use of the this keyword in JavaScript?</summary>
 <p>
     
 </p>
 </details>
 
 <details>
-<summary>1. What is a pure function?</summary>
+<summary>21. What is a pure function?</summary>
 <p>
 
 
 </p>
 </details>
+<details>
+<summary>22. What is the object type?</summary>
+<p>
+    The <b>object type</b> refers to a compound value where you can set properties (named locations) that each holds their own values of any type.
+</p>
+</details>
+
+```javascript
+    var obj = {
+	a: "hello world", // property
+	b: 42,
+	c: true
+    };
+
+    obj.a;		// "hello world", accessed with doted notation
+    obj.b;		// 42
+    obj.c;		// true
+
+    console.log(obj["a"]);	// "hello world", accessed with bracket notation
+    console.log(obj["b"]);	// 42
+    console.log(obj["c"]);	// true
+```
 
 ## Intermediate JavaScript Questions:
 
@@ -217,87 +239,109 @@
 <p></p>
 </details>
 <details>
-<summary>1. What is a higher-order function?</summary>
+<summary>2. What is a higher-order function?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. How does prototypal inheritance work in JavaScript?</summary>
+<summary>3. How does prototypal inheritance work in JavaScript?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What is the difference between classical inheritance and prototypal inheritance?</summary>
+<summary>4. What is the difference between classical inheritance and prototypal inheritance?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. Explain the concept of currying in JavaScript.</summary>
+<summary>5. Explain the concept of currying in JavaScript.</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What is the difference between slice and splice?</summary>
+<summary>6. What is the difference between slice and splice?</summary>
+<p></p>
+</details>
+
+<details>
+<summary>7. Explain the difference between call, apply, and bind.</summary>
+<p></p>
+</details>
+
+<details>
+<summary>Explain arrays in JavaScript</summary>
+<p>
+    An array is an object that holds values (of any type) not particularly in named properties/keys, but rather in numerically indexed positions
+</p>
+</details>
+
+```javascript
+    var arr = [
+	"hello world",
+	42,
+	true
+];
+
+arr[0];			// "hello world"
+arr[1];			// 42
+arr[2];			// true
+arr.length;		// 3
+
+typeof arr;		// "object"
+```
+
+<details>
+<summary>8. What is the difference between map, forEach, and filter?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. Explain the difference between call, apply, and bind.</summary>
+<summary>9. What is a closure and how is it used?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What is the difference between map, forEach, and filter?</summary>
+<summary>10. Explain the concept of memoization and provide an example.</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What is a closure and how is it used?</summary>
+<summary>11. What are ES6 arrow functions? How do they differ from regular functions?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. Explain the concept of memoization and provide an example.</summary>
+<summary>12. What are ES6 template literals?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What are ES6 arrow functions? How do they differ from regular functions?</summary>
+<summary>13. What is the purpose of the super keyword in JavaScript?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What are ES6 template literals?</summary>
+<summary>14. Explain the concept of modules in JavaScript.</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What is the purpose of the super keyword in JavaScript?</summary>
+<summary>15. What are JavaScript decorators?</summary>
+<p></p>
+</details>
+
+
+<details>
+<summary>16. Explain how setTimeout and setInterval functions work in JavaScript.</summary>
 <p></p>
 </details>
 <details>
-<summary>1. Explain the concept of modules in JavaScript.</summary>
+<summary>17. What is a promise in JavaScript? How do you use it?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What are JavaScript decorators?</summary>
+<summary>18. What are generators in JavaScript?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What is the difference between == and === in JavaScript?</summary>
+<summary>19. What is a WeakMap in JavaScript and what is it used for?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. Explain how setTimeout and setInterval functions work in JavaScript.</summary>
+<summary>20. How do you handle errors in JavaScript?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What is a promise in JavaScript? How do you use it?</summary>
-<p></p>
-</details>
-<details>
-<summary>1. What are generators in JavaScript?</summary>
-<p></p>
-</details>
-<details>
-<summary>1. What is a WeakMap in JavaScript and what is it used for?</summary>
-<p></p>
-</details>
-<details>
-<summary>1. How do you handle errors in JavaScript?</summary>
-<p></p>
-</details>
-<details>
-<summary>1. Explain the concept of event bubbling and event capturing.</summary>
+<summary>21. Explain the concept of event bubbling and event capturing.</summary>
 <p></p>
 </details>
 
@@ -309,91 +353,90 @@
 <p></p>
 </details>
 <details>
-<summary>1. What is the prototype chain in JavaScript?</summary>
+<summary>2. What is the prototype chain in JavaScript?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What are the differences between ES6 classes and constructor functions?</summary>
+<summary>3. What are the differences between ES6 classes and constructor functions?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. Explain the concept of memoization and its benefits.</summary>
+<summary>4. Explain the concept of memoization and its benefits.</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What is the difference between JavaScript's map and forEach methods?</summary>
+<summary>5. What is the difference between JavaScript's map and forEach methods?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. Explain the difference between imperative and declarative programming styles.</summary>
+<summary>6. Explain the difference between imperative and declarative programming styles.</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What is the difference between the apply, call, and bind methods?</summary>
+<summary>7. What is the difference between the apply, call, and bind methods?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. Explain the concept of the event loop in JavaScript.</summary>
+<summary>8. Explain the concept of the event loop in JavaScript.</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What is the difference between a shallow copy and a deep copy?</summary>
+<summary>9. What is the difference between a shallow copy and a deep copy?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. Explain the concept of scope in JavaScript.</summary>
+<summary>10. Explain the concept of scope in JavaScript.</summary>
+<p>
+    In JavaScript, each function gets its own scope. The scope is basically a collection of variables as well as the rules for how those variables are accessed by name. Only code inside that function can access that function's scoped variables.
+</p>
+</details>
+<details>
+<summary>11. What is the difference between a function declaration and a function expression?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What is the difference between a function declaration and a function expression?</summary>
+<summary>12. Explain the concept of function currying and provide an example.</summary>
 <p></p>
 </details>
 <details>
-<summary>1. Explain the concept of function currying and provide an example.</summary>
+<summary>13. What is the difference between synchronous and asynchronous code?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What is the difference between synchronous and asynchronous code?</summary>
+<summary>14. What is a closure in JavaScript and how is it used?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What is a closure in JavaScript and how is it used?</summary>
+<summary>15. Explain the concept of prototypal inheritance in JavaScript.</summary>
 <p></p>
 </details>
 <details>
-<summary>1. Explain the concept of prototypal inheritance in JavaScript.</summary>
+<summary>16. What are JavaScript promises and how do you use them?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What are JavaScript promises and how do you use them?</summary>
+<summary>17. What is the difference between the null and undefined keywords in JavaScript?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What is the difference between the null and undefined keywords in JavaScript?</summary>
+<summary>18. Explain the concept of event delegation and provide an example.</summary>
 <p></p>
 </details>
 <details>
-<summary>1. Explain the concept of event delegation and provide an example.</summary>
+<summary>19. What are the benefits of using strict mode in JavaScript?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What are the benefits of using strict mode in JavaScript?</summary>
+<summary>20. What is a generator function in JavaScript?</summary>
+<p></p>
+</details>
+
+<details>
+<summary>21. What is the purpose of the this keyword in JavaScript?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What is a generator function in JavaScript?</summary>
-<p></p>
-</details>
-<details>
-<summary>1. Explain the differences between == and === in JavaScript.</summary>
-<p></p>
-</details>
-<details>
-<summary>1. What is the purpose of the this keyword in JavaScript?</summary>
-<p></p>
-</details>
-<details>
-<summary>1. What is the difference between map, reduce, and filter in JavaScript?</summary>
+<summary>22. What is the difference between map, reduce, and filter in JavaScript?</summary>
 <p></p>
 </details>
 
@@ -405,91 +448,91 @@
 <p></p>
 </details>
 <details>
-<summary>1. What are events in JavaScript?</summary>
+<summary>2. What are events in JavaScript?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What is event delegation?</summary>
+<summary>3. What is event delegation?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What are event listeners in JavaScript?</summary>
+<summary>4. What are event listeners in JavaScript?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. Explain the difference between bubbling and capturing.</summary>
+<summary>5. Explain the difference between bubbling and capturing.</summary>
 <p></p>
 </details>
 <details>
-<summary>1. How do you access and modify HTML elements using JavaScript?</summary>
+<summary>6. How do you access and modify HTML elements using JavaScript?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What is the difference between document.getElementById() and document.querySelector()?</summary>
+<summary>7. What is the difference between document.getElementById() and document.querySelector()?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What is the difference between addEventListener and attachEvent?</summary>
+<summary>8. What is the difference between addEventListener and attachEvent?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What is the purpose of the window.onload event?</summary>
+<summary>9. What is the purpose of the window.onload event?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. How do you prevent the default behavior of an event in JavaScript?</summary>
+<summary>10. How do you prevent the default behavior of an event in JavaScript?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What is event propagation?</summary>
+<summary>11. What is event propagation?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. How do you create an element dynamically using JavaScript?</summary>
+<summary>12. How do you create an element dynamically using JavaScript?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What is the innerHTML property in JavaScript?</summary>
+<summary>13. What is the innerHTML property in JavaScript?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. How do you handle errors in JavaScript?</summary>
+<summary>14. How do you handle errors in JavaScript?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What is the purpose of the setTimeout function in JavaScript?</summary>
+<summary>15. What is the purpose of the setTimeout function in JavaScript?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What is the purpose of the setInterval function in JavaScript?</summary>
+<summary>16. What is the purpose of the setInterval function in JavaScript?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. How do you get the value of a form input field in JavaScript?</summary>
+<summary>17. How do you get the value of a form input field in JavaScript?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. How do you set the value of a form input field in JavaScript?</summary>
+<summary>18. How do you set the value of a form input field in JavaScript?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What are the differences between the window and document objects in JavaScript?</summary>
+<summary>19. What are the differences between the window and document objects in JavaScript?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What is the purpose of the DOMContentLoaded event?</summary>
+<summary>20. What is the purpose of the DOMContentLoaded event?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. How do you create and remove event listeners in JavaScript?</summary>
+<summary>21. How do you create and remove event listeners in JavaScript?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What is the difference between clientHeight, offsetHeight, and scrollHeight?</summary>
+<summary>22. What is the difference between clientHeight, offsetHeight, and scrollHeight?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What is the difference between localStorage and sessionStorage?</summary>
+<summary>23. What is the difference between localStorage and sessionStorage?</summary>
 <p></p>
 </details>
 
@@ -501,42 +544,42 @@
 <p></p>
 </details>
 <details>
-<summary>1. What are arrow functions and how do they differ from regular functions?</summary>
+<summary>2. What are arrow functions and how do they differ from regular functions?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What are template literals in ES6?</summary>
+<summary>3. What are template literals in ES6?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What are destructuring assignments in ES6?</summary>
+<summary>4. What are destructuring assignments in ES6?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What are default parameters in ES6?</summary>
+<summary>5. What are default parameters in ES6?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What are rest parameters in ES6?</summary>
+<summary>6. What are rest parameters in ES6?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What is the let keyword used for in ES6?</summary>
+<summary>7. What is the let keyword used for in ES6?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What is the const keyword used for in ES6?</summary>
+<summary>8. What is the const keyword used for in ES6?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What are classes in ES6?</summary>
+<summary>9. What are classes in ES6?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What are modules in ES6?</summary>
+<summary>10. What are modules in ES6?</summary>
 <p></p>
 </details>
 <details>
-<summary>1. What is the spread operator in ES6?</summary>
+<summary>11. What is the spread operator in ES6?</summary>
 <p></p>
 </details>
