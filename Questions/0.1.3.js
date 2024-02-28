@@ -71,14 +71,21 @@ const filterOutput=users.filter(function user(x){
 // achive this using reduce
 
 
+// const reduceName=users.reduce(function(acc,curr){
+//     if(curr.age<30){
+//         // acc.push(curr.firstName)
+//         // console.log(curr.firstName);
+
+//         return acc=(curr.firstName)
+//     }
+
+// },{})
 const reduceName=users.reduce(function(acc,curr){
     if(curr.age<30){
-        // acc.push(curr.firstName)
-        // console.log(curr.firstName);
-
-        return acc.push(curr.firstName)
+      if(!acc) acc=[curr.firstName]
+       else acc = [...acc, curr.firstName]
     }
-
-},{})
+ return acc
+},[])
 
 console.log(reduceName);
